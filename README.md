@@ -236,7 +236,7 @@ Give a ⭐️ if this project helped you!
 - 📧 Email: [23f3000080@ds.study.iitm.ac.in](mailto:23f3000080@ds.study.iitm.ac.in)
 - 💼 LinkedIn: [Ankit Aarya](https://www.linkedin.com/in/ankit-kumar-5aaa59314/)
 - 🐙 GitHub: [@23f3000080](https://github.com/23f3000080)
-- 🌐 Portfolio: [Live Demo](https://yourusername.github.io)
+- 🌐 Portfolio: [Live Demo](https://23f3000080.github.io/ankit-portfolio/index.html)
 
 ---
 
