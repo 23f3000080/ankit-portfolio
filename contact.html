@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Ankit Aarya</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="light">
+  <div id="navbar"></div>
+
+  <!-- Contact Hero Section -->
+  <section class="contact-hero">
+    <div class="container">
+      <div class="contact-hero-content">
+        <h1 class="contact-hero-title">
+          Let's <span class="text-gradient">Connect</span>
+        </h1>
+        <p class="contact-hero-subtitle">
+          Ready to start your next project? Let's discuss how we can work together.
+        </p>
+        <p class="contact-hero-description">
+          I'm always excited to collaborate on new projects and take on challenging opportunities. 
+          Whether you have a project in mind or just want to say hello, I'd love to hear from you.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <div class="container">
+      <div class="contact-content">
+        <!-- Contact Form -->
+        <div class="contact-form-container">
+          <div class="form-header">
+            <h2 class="form-title">Send Me a Message</h2>
+            <p class="form-subtitle">I'll get back to you within 24 hours</p>
+          </div>
+          
+          <form id="contact-form" class="contact-form" action="https://formspree.io/f/myzndwgn" method="POST">
+            <div class="form-group">
+              <label for="name" class="form-label">
+                <i class="fas fa-user"></i>
+                Full Name
+              </label>
+              <input type="text" id="name" name="name" class="form-input" required placeholder="Enter your full name">
+            </div>
+
+            <div class="form-group">
+              <label for="email" class="form-label">
+                <i class="fas fa-envelope"></i>
+                Email Address
+              </label>
+              <input type="email" id="email" name="email" class="form-input" required placeholder="Enter your email address">
+            </div>
+
+            <div class="form-group">
+              <label for="subject" class="form-label">
+                <i class="fas fa-tag"></i>
+                Subject
+              </label>
+              <input type="text" id="subject" name="subject" class="form-input" required placeholder="What's this about?">
+            </div>
+
+            <div class="form-group">
+              <label for="message" class="form-label">
+                <i class="fas fa-comment"></i>
+                Message
+              </label>
+              <textarea id="message" name="message" class="form-textarea" required rows="6" placeholder="Tell me about your project or inquiry..."></textarea>
+            </div>
+
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary btn-large form-submit">
+                <i class="fas fa-paper-plane mr-2"></i>
+                Send Message
+              </button>
+            </div>
+
+            <div id="form-status" class="form-status"></div>
+          </form>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="contact-info-container">
+          <div class="contact-info">
+            <h2 class="info-title">Get In Touch</h2>
+            <p class="info-description">
+              Prefer other ways to connect? Here's how you can reach me:
+            </p>
+
+            <div class="contact-methods">
+              <!-- mobile number -->
+               <div>
+                <div class="contact-method">
+                  <div class="method-icon">
+                    <i class="fas fa-phone"></i>
+                  </div>
+                  <div class="method-content">
+                    <h3 class="method-title">Phone</h3>
+                    <p class="method-value">+91 9142125921</p>
+                    <a href="tel:+919142125921" class="method-link">Call me</a>
+                  </div>
+                </div>
+               </div>
+              <div class="contact-method">
+                <div class="method-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="method-content">
+                  <h3 class="method-title">Email</h3>
+                  <p class="method-value">23f3000080@ds.study.iitm.ac.in</p>
+                  <a href="mailto:23f3000080@ds.study.iitm.ac.in" class="method-link">Send an email</a>
+                </div>
+              </div>
+
+              <div class="contact-method">
+                <div class="method-icon">
+                  <i class="fab fa-linkedin"></i>
+                </div>
+                <div class="method-content">
+                  <h3 class="method-title">LinkedIn</h3>
+                  <p class="method-value">Ankit Aarya</p>
+                  <a href="https://www.linkedin.com/in/ankit-kumar-5aaa59314/" class="method-link" target="_blank" rel="noopener noreferrer">Connect with me</a>
+                </div>
+              </div>
+
+              <div class="contact-method">
+                <div class="method-icon">
+                  <i class="fab fa-github"></i>
+                </div>
+                <div class="method-content">
+                  <h3 class="method-title">GitHub</h3>
+                  <p class="method-value">@23f3000080</p>
+                  <a href="https://github.com/23f3000080" class="method-link" target="_blank" rel="noopener noreferrer">View my work</a>
+                </div>
+              </div>
+
+              <div class="contact-method">
+                <div class="method-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="method-content">
+                  <h3 class="method-title">Location</h3>
+                  <p class="method-value">Patna, Bihar, India</p>
+                  <span class="method-link">Available for remote work</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="availability">
+              <div class="availability-status">
+                <div class="status-dot available"></div>
+                <span>Currently available for new projects</span>
+              </div>
+              <p class="availability-note">
+                I'm actively looking for internship opportunities and freelance projects in Data Science and Web Development.
+              </p>
+            </div>
+
+            <div class="social-links">
+              <h3 class="social-title">Follow Me</h3>
+              <div class="social-icons">
+                <a href="https://github.com/23f3000080" class="social-link" target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/ankit-kumar-5aaa59314/" class="social-link" target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <!-- <a href="https://twitter.com/yourusername" class="social-link" target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://instagram.com/yourusername" class="social-link" target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-instagram"></i>
+                </a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-subtitle">Quick answers to common questions</p>
+      </div>
+      
+      <div class="faq-grid">
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>What types of projects do you take on?</h3>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>I specialize in Data Science projects, Web Development (Full Stack), and Machine Learning applications. This includes data analysis, web applications, APIs, and predictive modeling projects.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>How long does a typical project take?</h3>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>Project timelines vary based on complexity. Simple websites: 1-2 weeks, Full-stack applications: 3-6 weeks, Data Science projects: 2-8 weeks. I provide detailed timelines during our initial discussion.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>Do you work remotely or on-site?</h3>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>I primarily work remotely and have experience collaborating with teams across different time zones. I'm comfortable using various project management and communication tools.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>What's your availability for new projects?</h3>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>I'm currently available for new projects and internship opportunities. I can dedicate 20-40 hours per week depending on the project requirements.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="contact-cta">
+    <div class="container">
+      <div class="cta-content">
+        <h2 class="cta-title">Ready to Start Your Project?</h2>
+        <p class="cta-description">
+          Let's discuss your ideas and bring them to life. I'm just a message away!
+        </p>
+        <div class="cta-buttons">
+          <a href="#contact-form" class="btn btn-primary btn-large">
+            <i class="fas fa-paper-plane mr-2"></i>
+            Send Message
+          </a>
+          <a href="projects.html" class="btn btn-secondary btn-large">
+            <i class="fas fa-briefcase mr-2"></i>
+            View My Work
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/contact.js"></script>
+</body>
+</html>

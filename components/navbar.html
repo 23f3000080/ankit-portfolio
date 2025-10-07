@@ -1,0 +1,49 @@
+<!-- Navbar Component -->
+<div class="welcome-message">
+    <div class="max-w-6xl mx-auto px-4">
+        Welcome to my portfolio! I'm excited to share my work with you.
+        <span class="font-bold">Hire me for your next project!</span>
+    </div>
+</div>
+
+<header class="sticky top-0 z-50 transition-all duration-300">
+    <nav class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+        <!-- Logo -->
+        <div class="flex items-center">
+            <a href="home.html" class="text-xl font-bold gradient-text flex items-center">
+                <img src="assets/images/logo.jpeg" alt="Ankit Aarya Logo" class="h-10 w-10 mr-2 rounded-full">
+                Ankit Aarya
+            </a>
+        </div>
+
+        <!-- Desktop Navigation -->
+        <ul class="hidden md:flex gap-8 items-center">
+            <li><a href="home.html" class="nav-link"><i class="fas fa-home mr-2 text-blue-500"></i>Home</a></li>
+            <li><a href="about.html" class="nav-link"><i class="fas fa-user mr-2 text-green-600"></i>About</a></li>
+            <li><a href="projects.html" class="nav-link"><i class="fas fa-briefcase mr-2 text-purple-500"></i>Projects</a></li>
+            <li><a href="contact.html" class="nav-link"><i class="fas fa-envelope mr-2 text-red-500"></i>Contact</a></li>
+
+            <li><button id="theme-toggle" class="theme-toggle"><i class="fas fa-moon text-dark-500"></i></button></li>
+        </ul>
+
+        <!-- Mobile Menu and Theme -->
+        <div class="flex items-center gap-4">
+            <button id="theme-toggle-mobile" class="theme-toggle md:hidden"><i class="fas fa-moon"></i></button>
+            <button id="mobile-menu-button" class="md:hidden flex flex-col justify-center items-center w-10 h-10">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line mt-1.5"></span>
+                <span class="hamburger-line mt-1.5"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="md:hidden bg-[var(--secondary-bg)] transition-all duration-300 overflow-hidden max-h-0">
+        <ul class="flex flex-col py-4 px-6">
+            <li><a href="home.html" class="mobile-nav-link"><i class="fas fa-home mr-4 text-blue-500"></i>Home</a></li>
+            <li><a href="about.html" class="mobile-nav-link"><i class="fas fa-user mr-4 text-green-600"></i>About</a></li>
+            <li><a href="projects.html" class="mobile-nav-link"><i class="fas fa-briefcase mr-4 text-purple-500"></i>Projects</a></li>
+            <li><a href="contact.html" class="mobile-nav-link"><i class="fas fa-envelope mr-4 text-red-500"></i>Contact</a></li>
+        </ul>
+    </div>
+</header>

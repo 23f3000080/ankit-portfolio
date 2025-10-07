@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Ankit Aarya</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="light">
+  <div id="navbar"></div>
+
+  <!-- Projects Hero Section -->
+  <section class="projects-hero">
+    <div class="container">
+      <div class="projects-hero-content">
+        <h1 class="projects-hero-title">
+          My <span class="text-gradient">Projects</span>
+        </h1>
+        <p class="projects-hero-subtitle">
+          Building innovative solutions with modern technologies
+        </p>
+        <p class="projects-hero-description">
+          Explore my portfolio of full-stack applications, web platforms, and data science projects. 
+          Each project represents my passion for creating efficient, user-friendly solutions.
+        </p>
+        <div class="projects-stats">
+          <div class="project-stat">
+            <div class="stat-number">10+</div>
+            <div class="stat-label">Projects Completed</div>
+          </div>
+          <div class="project-stat">
+            <div class="stat-number">5+</div>
+            <div class="stat-label">Technologies</div>
+          </div>
+          <div class="project-stat">
+            <div class="stat-number">100%</div>
+            <div class="stat-label">Client Satisfaction</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Filter -->
+  <section class="projects-filter-section">
+    <div class="container">
+      <div class="filter-container">
+        <h3 class="filter-title">Filter by Technology</h3>
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="flask">Flask</button>
+          <button class="filter-btn" data-filter="vue">Vue.js</button>
+          <button class="filter-btn" data-filter="python">Python</button>
+          <button class="filter-btn" data-filter="javascript">JavaScript</button>
+          <button class="filter-btn" data-filter="database">Database</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Projects -->
+  <section class="projects-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-subtitle">Some of my recent work</p>
+      </div>
+      
+      <div class="projects-grid">
+        <!-- ParkEase Parking Site -->
+        <div class="project-card" data-tech="flask vue python database">
+          <div class="project-badge">Full Stack</div>
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGFya2luZ3xlbnwwfHwwfHx8MA%3D%3D" alt="ParkEase Parking Site">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="https://www.youtube.com/watch?v=d7ZbNqxNKME" class="project-link" target="_blank" rel="noopener noreferrer" title="Watch Demo">
+                  <i class="fas fa-video"></i>
+                </a>
+                <a href="https://github.com/23f3000080/vehicle-parking-system-mad-2" class="project-link" target="_blank" rel="noopener noreferrer" title="View Code">
+                  <i class="fab fa-github"></i>
+                </a>
+                <button class="project-link project-detail-btn" title="View Details">
+                  <i class="fas fa-info-circle"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">ParkEase Parking Site</h3>
+            <p class="project-description">
+              A full-stack Vehicle Parking Management System built with Flask and Vue.js. Users can register, book parking
+              slots, and view PDF receipts. Admins manage lots, reservations, and view live stats with charts.
+            </p>
+            <div class="project-features">
+              <div class="feature">
+                <i class="fas fa-check-circle"></i>
+                <span>User Registration & Authentication</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-check-circle"></i>
+                <span>Real-time Slot Booking</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-check-circle"></i>
+                <span>PDF Receipt Generation</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-check-circle"></i>
+                <span>Admin Dashboard with Analytics</span>
+              </div>
+            </div>
+            <div class="project-tech">
+              <span class="tech-tag">Flask</span>
+              <span class="tech-tag">Vue.js</span>
+              <span class="tech-tag">SQLite</span>
+              <span class="tech-tag">Chart.js</span>
+              <span class="tech-tag">Celery</span>
+              <span class="tech-tag">Bootstrap</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quizzy Web Platform -->
+        <div class="project-card" data-tech="flask python database">
+          <div class="project-badge">Web Platform</div>
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cXVpenplc3xlbnwwfHwwfHx8MA%3D%3D" alt="Quizzy Web Platform">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="https://drive.google.com/file/d/1PydqduqAWvcfw3kU_ZSVw_XQXPRkKg2Q/view?usp=sharing" class="project-link" target="_blank" rel="noopener noreferrer" title="Watch Video">
+                  <i class="fas fa-video"></i>
+                </a>
+                <a href="https://github.com/23f3000080/quizzy-test" class="project-link" target="_blank" rel="noopener noreferrer" title="View Code">
+                  <i class="fab fa-github"></i>
+                </a>
+                <button class="project-link project-detail-btn" title="View Details">
+                  <i class="fas fa-info-circle"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Quizzy Web Platform</h3>
+            <p class="project-description">
+              A web-based quiz platform where users can take MCQ quizzes by subject and get instant results. Admins can manage
+              subjects, quizzes, and questions via a dashboard.
+            </p>
+            <div class="project-features">
+              <div class="feature">
+                <i class="fas fa-check-circle"></i>
+                <span>Subject-based Quiz Categories</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-check-circle"></i>
+                <span>Instant Results & Scoring</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-check-circle"></i>
+                <span>Admin Question Management</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-check-circle"></i>
+                <span>Responsive Design</span>
+              </div>
+            </div>
+            <div class="project-tech">
+              <span class="tech-tag">Flask</span>
+              <span class="tech-tag">SQLite</span>
+              <span class="tech-tag">HTML/CSS</span>
+              <span class="tech-tag">Bootstrap</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Science Coaching Site -->
+        <div class="project-card" data-tech="javascript python database">
+          <div class="project-badge">Educational Platform</div>
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y29hY2hpbmd8ZW58MHx8MHx8fDA%3D" alt="Science Coaching Site">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link" title="Live Demo">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a href="https://github.com/23f3000080/Scienece-Coaching-Center-Site" class="project-link" target="_blank" rel="noopener noreferrer" title="View Code">
+                  <i class="fab fa-github"></i>
+                </a>
+                <button class="project-link project-detail-btn" title="View Details">
+                  <i class="fas fa-info-circle"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Science Coaching Site</h3>
+            <p class="project-description">
+              A responsive website for a science coaching center, featuring course listings, instructor profiles, 
+              payments, notes, notifications, queries and student testimonials.
+            </p>
+            <div class="project-features">
+              <div class="feature">
+                <i class="fas fa-check-circle"></i>
+                <span>Course Management System</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-check-circle"></i>
+                <span>Payment Integration</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-check-circle"></i>
+                <span>Student Query System</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-check-circle"></i>
+                <span>Notification Alerts</span>
+              </div>
+            </div>
+            <div class="project-tech">
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">PostgreSQL</span>
+              <span class="tech-tag">HTML/CSS</span>
+              <span class="tech-tag">Bootstrap</span>
+              <span class="tech-tag">Responsive Design</span>
+              <span class="tech-tag">User Authentication</span>
+              <span class="tech-tag">Payment Integration</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Additional Project - Data Analytics Dashboard -->
+        <div class="project-card" data-tech="python javascript database">
+          <div class="project-badge">Data Analytics</div>
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YSUyMGFuYWx5dGljc3xlbnwwfHwwfHx8MA%3D%3D" alt="Data Analytics Dashboard">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link" title="Live Demo">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a href="#" class="project-link" target="_blank" rel="noopener noreferrer" title="View Code">
+                  <i class="fab fa-github"></i>
+                </a>
+                <button class="project-link project-detail-btn" title="View Details">
+                  <i class="fas fa-info-circle"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Data Analytics Dashboard</h3>
+            <p class="project-description">
+              An interactive dashboard for data visualization and business intelligence with real-time analytics, 
+              predictive modeling, and comprehensive reporting features.
+            </p>
+            <div class="project-features">
+              <div class="feature">
+                <i class="fas fa-check-circle"></i>
+                <span>Real-time Data Visualization</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-check-circle"></i>
+                <span>Predictive Analytics</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-check-circle"></i>
+                <span>Interactive Charts & Graphs</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-check-circle"></i>
+                <span>Automated Reporting</span>
+              </div>
+            </div>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">D3.js</span>
+              <span class="tech-tag">Pandas</span>
+              <span class="tech-tag">Plotly</span>
+              <span class="tech-tag">SQL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Modal -->
+  <div id="project-modal" class="project-modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modal-project-title">Project Title</h3>
+        <button class="modal-close" id="modal-close">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-image">
+          <img id="modal-image" src="" alt="">
+        </div>
+        <div class="modal-details">
+          <div class="modal-description" id="modal-description"></div>
+          <div class="modal-features" id="modal-features"></div>
+          <div class="modal-tech" id="modal-tech"></div>
+          <div class="modal-links" id="modal-links"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA Section -->
+  <section class="projects-cta">
+    <div class="container">
+      <div class="cta-content">
+        <h2 class="cta-title">Have a Project in Mind?</h2>
+        <p class="cta-description">
+          I'm always excited to take on new challenges and collaborate on innovative projects. 
+          Let's discuss how we can work together to bring your ideas to life.
+        </p>
+        <div class="cta-buttons">
+          <a href="contact.html" class="btn btn-primary btn-large">
+            <i class="fas fa-paper-plane mr-2"></i>
+            Start a Project
+          </a>
+          <a href="assets/resume.pdf" class="btn btn-secondary btn-large" download>
+            <i class="fas fa-download mr-2"></i>
+            Download Resume
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/projects.js"></script>
+</body>
+</html>
